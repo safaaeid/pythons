@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | To Pythons</title>
+  <link rel="icon" type="image/x-icon" href="./imgs/New-logo-1.png">
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="css/animate.css"/>
+</head>
+
+<body>
+  <header id="main_header">
+    <nav class="menu">
+      <ul>
+        <li><img src="./imgs/02.png" width="150" height="60" /></li>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="Teachers.html">Our Teachers</a></li>
+        <li class="mmm">
+          <a href="#">Division</a>
+          <ul class="mm">
+            <li><a href="American.html">American</a></li>
+            <li><a href="British.html">British</a></li>
+          </ul>
+        </li>
+        <li><a href="Register.html">Register</a></li>
+        <li><a href="apply1.html">Apply Now</a></li>
+        <li><a href="login.html"><img src="./imgs/01.png" width="30" height="30" /></a></li>
+        <li>
+          <form>
+            <input type="text" name="search" placeholder="Search.." />
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section id="main_content">
+    <input type="radio" id="trigger1" name="slider" />
+    <label for="trigger1"><span class="sr-only">School image</span></label>
+    <div class="slide bg1"></div>
+
+    <input type="radio" id="trigger2" name="slider" checked autofocus />
+    <label for="trigger2"><span class="sr-only">School image</span></label>
+    <div class="slide bg2"></div>
+
+    <input type="radio" id="trigger3" name="slider" />
+    <label for="trigger3"><span class="sr-only">School image</span></label>
+    <div class="slide bg3"></div>
+
+    <input type="radio" id="trigger4" name="slider" />
+    <label for="trigger4"><span class="sr-only">School image</span></label>
+    <div class="slide bg4"></div>
+
+    <input type="radio" id="trigger5" name="slider" />
+    <label for="trigger5"><span class="sr-only">School image</span></label>
+    <div class="slide bg5"></div>
+  </section>
+
+
+   <!--This is the intro for the school-->
+   <section id="about_content">
+   
+    <img class="img3" src="./imgs/student.png" alt="student" />
+    <div class="text">
+      <h3  class="animate__animated animate__slideInRight animate__infinite">Welcome to <span>Pythons Academy</span></h3>
+      <p>
+        <span>Mission:</span> Igniting Global Citizens: To empower students
+        from diverse backgrounds with the knowledge, skills, and intercultural
+        understanding to thrive in an interconnected world and make a positive
+        impact through responsible leadership and action.<br>
+      
+        <span>Vision:</span> Rooted in academic excellence, we foster critical
+        thinkers and compassionate leaders who bridge cultural divides and
+        build a more just and sustainable future.<br>
+      
+        <span> Philosophy:</span>Lifelong Learning Journey: We ignite a
+        passion for learning that extends beyond the classroom walls. We
+        design a stimulating curriculum that fosters critical thinking,
+        problem-solving, and creativity, encouraging students to become
+        self-directed learners who embrace lifelong exploration and knowledge
+        acquisition.
+      </p>
+      <a href="https://www.google.com/" target="_blank">Read more</a>
+   
+  </div>
+</section>
+
+<!--this is a video-->
+<section id="vid">
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/xiAZPD-_30A?si=JWugoCbzv0dW7_x4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
+   <!-- student-comments-->
+   <section id="st-comment">
+    <img src="./imgs/st-comments.png" alt="" />
+    <div class="st_text">
+      <h2 class="animate__animated animate__rubberBand">Student's Comments</h2>
+      <p>
+        We, the students of Grade 12,would like to thank you for your efforts in creating a positive and supportive learning environment. Your passion for the subject has been evident in your teaching, and it has motivated us to work harder and strive for success.</p>
+      <a href="#" target="_blank">See more</a>
+    </div>
+   </section>
+   
+ <!--contact section-->
+   <section id="contact_box">
+    <form action="Recieved.html" method="post" autocomplete="on">
+      
+      <fieldset>
+        <legend>Contact Us</legend>
+        <span class="asterisk_input">*</span> 
+      <label for="name">Name</label>
+      <input type="text" placeholder="Full name" required minlength="5" pattern="[a-zA-Z ]*"/><br />
+      <br />
+      <span class="asterisk_input">*</span> 
+      <label for="phone" >Phone Number</label>
+      <input type="tel" id="PhoneNumber" name="PhoneNumber" placeholder="Your Phone Number.." required  minlength="11" pattern="[0-9]{11}" ><br />
+      <br />
+      <span class="asterisk_input">*</span> 
+      <label for="email">E-mail</label>
+      <input type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required /><br />
+      <br />
+      <span class="asterisk_input">*</span> 
+      <label for="ms">Message</label>
+      <textarea id="ms" name="Message" placeholder="Write something.." style="height:100px"  minlength="10" autocorrect></textarea><br />
+      <br />
+       
+      <input type="submit" value="Send">  </fieldset>
+    </form>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.946841981544!2d31.66806097532139!3d30.038382874926608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1457f594852970d5%3A0xdab002886ee540fd!2sNew%20capital%20English%20school!5e0!3m2!1sen!2seg!4v1707156852143!5m2!1sen!2seg"
+        width="600"
+        height="400"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+   
+   </section>
+  <!--footer-->
+  <footer id="main_footer">
+    <div style="width: 50%; float: left">
+      <h2>Pythons Team</h2>
+      <p style="line-height: 25px;">
+        Pythons is an enthusiastic and dynamic team comprised of budding
+        website design enthusiasts who are at the initial stages of their
+        learning journey. <br />
+        This group of students, united by their passion for web design, has
+        come together under the banner of Pythons to explore the fascinating
+        world of creating visually appealing and functional websites.!
+        <br />Despite being beginners, the Pythons team is not afraid to take
+        on projects and challenges that push their boundaries. 
+      </p>
+      <img id="logo_footer" src="./imgs/Whitelogo.png" />
+
+      <p id="copy">© 2024 Pythons All rights reserved.</p>
+    </div>
+
+    <div class="footer_contact">
+      <h2>Contact Us</h2>
+      <ul>
+        <li id="item"><img src="./imgs/email.png" alt="email" /> Email: info@nces.edu.eg</li>
+        <li id="item">
+          <img src="./imgs/phone.png"alt="phone"  /> TEL(Egy):0106 423 4182 - 0102
+          3540627
+        </li>
+        <li id="item">
+          <img src="./imgs/location.png" alt="location" />
+          Correspondence Address:
+        </li>
+        <li id="item">New Capital – R2 – D1 SC4 Cairo, Egypt.</li>
+      </ul>
+      <ul id="social">
+        <li><a href="https://web.facebook.com/ncesegypt/?_rdc=1&_rdr" target="_blank"><img id="media" src="./imgs/White facebook.png" alt="facebook"/></a></li>
+        <li><a href="https://www.instagram.com/ncesegypt/" target="_blank"><img id="media"
+              src="./imgs/white instgram.png" alt="instagram"/></a></li>
+        <li><a href="https://www.youtube.com/@newcapitalenglishschools5932" target="_blank"><img id="media" src="./imgs/white youtube.png" alt="youtube"/></a></li>
+      </ul>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
